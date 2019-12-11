@@ -4,20 +4,25 @@
 #include "checker.h"
 #include "thomas_alg.h"
 
-#define NxN 4 //This must be modified according to the size of the input matrix.
+#define NxN 9 //This must be modified according to the size of the input matrix.
 
 int main()
 {
 	//Do not forget to modify NxN as well
 	double myMatrix[][NxN] = { 
-		{1,-8,0,0}, 
-		{2,-2,-7,0},
-		{0,7,3,-6},
-		{0,0,8,-7}
+		{1.6, 7.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		{7.1, 14.7, 6.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		{0.0, 6.4, 10.2, 19.3, 0.0, 0.0, 0.0, 0.0, 0.0},
+		{0.0, 0.0, 19.3, 14.3, 10.7, 0.0, 0.0, 0.0, 0.0},
+		{0.0, 0.0, 0.0, 10.7, 4.3, 18.9, 0.0, 0.0, 0.0},
+		{0.0, 0.0, 0.0, 0.0, 18.9, 8.7, 19.1, 0.0, 0.0},
+		{0.0, 0.0, 0.0, 0.0, 0.0, 19.1, 1.1, 6.7, 0.0},
+		{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.7, 15.8, 3.9},
+		{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.9, 8.3},
 	};
 
 	double dnValues[NxN] = { 
-		3,5,6,1
+		17.9, 6.9, 8.8, 18.2, 9.7, 2.0, 7.1, 8.0, 7.5
 	};
 
 
@@ -55,7 +60,7 @@ int main()
 	}
 
 	printf("Solution:\n");
-	printValues(xValues, NxN);
+	printValuesX(xValues, NxN);
 
 	free(ciValues);
 	free(aiValues);

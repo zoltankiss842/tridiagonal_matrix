@@ -94,6 +94,19 @@ void printValues(double(*array_ptr), int size) {
 	printf("\n");
 }
 
+void printValuesX(double(*array_ptr), int size) {
+
+	/*
+		Prints out the values of the xValues array, in 2 decimal places
+	*/
+
+	for (int i = 0; i < size; i++)
+	{
+		printf("X%d: %2.2lf ",i+1,array_ptr[i]);
+	}
+	printf("\n");
+}
+
 
 void printValuesM(double(*matrix_ptr), int size) {
 
