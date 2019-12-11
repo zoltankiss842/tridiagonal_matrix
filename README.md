@@ -153,4 +153,4 @@ These arrays storing the representative values of the matrix. The output will be
 [2] : https://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm  
 
 Huge thanks to:
-Ally Learn ([Youtube channel]([https://www.youtube.com/channel/UCNweNoqZgtcYmlczDHV36Gw](https://www.youtube.com/channel/UCNweNoqZgtcYmlczDHV36Gw)))
+Ally Learn ([Youtube channel](https://www.youtube.com/channel/UCNweNoqZgtcYmlczDHV36Gw))
